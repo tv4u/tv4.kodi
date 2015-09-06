@@ -1,4 +1,4 @@
-repository.k3oni.xbmc-addons
+repository.Video.TV4U
 ============================
 
 XBMC addons repository.
