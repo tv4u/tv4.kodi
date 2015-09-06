@@ -743,3 +743,70 @@ class Digi24(BaseChannel):
 
     def action_play_stream(self):
         self.plugin.set_stream_url('http://82.76.249.77:80/digi24edge/digi24hdhqhls/index.m3u8')
+
+##################
+## MTA ORIGINAL ##
+##################
+
+class Arirang(BaseChannel):
+    playable = True
+    short_name = 'MTA'
+    long_name = 'MTA ORIGINAL'
+    default_action = 'play_stream' 
+
+    def action_play_stream(self):
+        self.plugin.set_stream_url('http://mta1-lh.akamaihd.net/i/Orginal_1@123040/index_300_av-b.m3u8')
+
+##############
+## MTA URDU ##
+##############
+
+class Arirang(BaseChannel):
+    playable = True
+    short_name = 'MTAU'
+    long_name = 'MTA URDU'
+    default_action = 'play_stream' 
+
+    def action_play_stream(self):
+        self.plugin.set_stream_url('http://mta1-lh.akamaihd.net/i/urdu_1@151347/index_1000_av-p.m3u8')
+
+#################
+## MTA ENGLISH ##
+#################
+
+class Arirang(BaseChannel):
+    playable = True
+    short_name = 'MTAE'
+    long_name = 'MTA ENGLISH'
+    default_action = 'play_stream' 
+
+    def action_play_stream(self):
+        self.plugin.set_stream_url('http://mta1-lh.akamaihd.net/i/English_1@123035/index_360_av-p.m3u8')
+
+################
+## MTA FRENCH ##
+################
+
+class Arirang(BaseChannel):
+    playable = True
+    short_name = 'MTAF'
+    long_name = 'MTA FRENCH'
+    default_action = 'play_stream' 
+
+    def action_play_stream(self):
+        self.plugin.set_stream_url('http://mta1-lh.akamaihd.net/i/French_1@123037/index_360_av-p.m3u8')
+
+#################
+## MTA BENGALI ##
+#################
+
+class Arirang(BaseChannel):
+    playable = True
+    short_name = 'MTAB'
+    long_name = 'MTA BENGALI'
+    default_action = 'play_stream' 
+
+    def action_play_stream(self):
+        self.plugin.set_stream_url('http://mta1-lh.akamaihd.net/i/Bengali_1@123038/index_750_av-p.m3u8')
+
+

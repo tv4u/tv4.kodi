@@ -33,13 +33,12 @@ warrenty as described in the file "COPYING.txt"
 
 Credits
 -------
- - andrepl
+ - NAS
 	Initial addon development.
 
-[repository1]: https://github.com/k3oni/repository.k3oni.xbmc/archive/master.zip
-[repository2]: https://github.com/moneymaker365/repository.xbmcplus.xbmc-plugins/releases
-[githubzip]: https://github.com/k3oni/plugin.video.world.news.live/archive/master.zip
-[issues]: https://github.com/k3oni/plugin.video.world.news.live/
+[repository1]: https://github.com/tv4u/tv4.kodi/archive/master.zip
+[githubzip]: https://github.com/tv4u/tv4.kodi/archive/master.zip
+[issues]: https://github.com/tv4u/tv4.kodi/
 [gist]: https://gist.github.com
 [xbmclogs]: http://xbmclogs.com/
 [xbmc-wiki-log-file]: http://wiki.xbmc.org/index.php?title=Log_file/Advanced#Log_files

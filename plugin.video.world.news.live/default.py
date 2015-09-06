@@ -12,12 +12,12 @@ try:
 except:
     from pysqlite2 import dbapi2 as sqlite
     
-__plugin__ = "World News Live"
-__author__ = 'Florian Neagu <michaelneagu@gmail.com>'
+__plugin__ = "TV4U"
+__author__ = 'NAS'
 __url__ = 'http://world-news-live.googlecode.com/svn/trunk'
 __date__ = '1-10-2013'
 __version__ = '1.2.7'
-__settings__ = xbmcaddon.Addon(id='plugin.video.world.news.live')
+__settings__ = xbmcaddon.Addon(id='plugin.video.TV4U')
 
 
 
@@ -25,7 +25,7 @@ class WorldNewsLivePlugin(object):
         
     
     def connect_to_db(self):
-        path = xbmc.translatePath('special://profile/addon_data/plugin.video.world.news.live/')
+        path = xbmc.translatePath('special://profile/addon_data/plugin.video.TV4U/')
         if not os.path.exists(path):
             os.makedirs(path)
         self.db_conn = sqlite.connect(os.path.join(path, 'custom_streams.db'))
